@@ -1,0 +1,23 @@
+.OurUniqueness{
+    text-align: center;
+}
+.OurUniqueness p{
+    padding: 0 100px ;
+    text-align: justify;
+    color:rgba(7, 7, 7, 0.507);
+    text-decoration: none;
+    font-size: 18px;
+    margin:20PX;
+    font-weight: 600;
+}
+.OurUniqueness h1{
+    margin-top: 10px;
+    color:rgba(7, 7, 7, 0.507);
+    text-align: center;
+   
+}
+.OurUniqueness p{
+    text-align: justify;
+    color:rgba(7, 7, 7, 0.507);
+   
+}

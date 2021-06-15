@@ -1,0 +1,20 @@
+.OurStory{
+    text-align: center;
+}
+.OurStory p{
+    padding: 0 100px ;
+    text-align: justify;
+    color:rgba(7, 7, 7, 0.507);
+    font-size: 18px;
+    font-weight: 400;
+}
+.OurStory h1{
+    color:rgba(7, 7, 7, 0.411);
+    margin-top: 10px;
+    text-align: center;
+   
+}
+.OurStory p{
+    text-align: justify;
+   
+}

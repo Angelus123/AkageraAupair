@@ -1,0 +1,52 @@
+.item--2 {
+    grid-row: 2/3;
+    grid-column: 2/3;  
+    padding-bottom: 20%;
+    border-radius: 50px;
+
+  }
+  .wgh-slider-item-figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .wgh-item-figure__image {
+    width:80%;
+    display: block;
+    z-index: 1;
+    opacity: 1;
+  } 
+  .wgh-slider-item-figure__caption {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 24px;
+    background-image: linear-gradient(0deg, #000 0%, transparent 100%);
+    z-index: 2;
+  }
+  .wgh-slider-item-figure__caption a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    color: rgb(142, 172, 255);
+  }
+  .wgh-slider-item-figure__caption a:hover{
+    color: rgb(247, 255, 249);
+
+  }    
+  .wgh-slider-item-figure__caption span {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline;
+  }
+       

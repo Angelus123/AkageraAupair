@@ -1,0 +1,61 @@
+.slideImg-why{
+    width:100%;
+    height: auto;
+}
+
+.why-akagera-item{
+  border: 1px rgba(4, 0, 255, 0.171) solid;
+  border-radius: 20px;
+  width:30%;
+  text-align: justify;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  margin:20PX;
+  font-weight: 600;
+  padding: 20px;
+}
+.why-akagera-item p{
+  color:rgba(7, 7, 7, 0.507);
+}
+.why-akagera{
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+
+.why-akagera h1{
+  color:rgba(7, 7, 7, 0.507);
+}
+.button-why{
+  float: left;
+  width:100px;
+  margin-top:20px;
+  text-align: center;
+  font-size: 18px;
+  color:white;
+  border: none;
+  border-radius: 200px;
+  background-color:rgba(6, 101, 179, 0.993);
+}
+.image-why{
+  margin:10px;
+  width:200px;
+  height:200px
+}
+.title-why{
+  width: 130px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  height:30px;
+  margin-top: -35px;
+  background-color: #bd564f;
+}
+.image-why-holder{
+  text-align: center;
+}

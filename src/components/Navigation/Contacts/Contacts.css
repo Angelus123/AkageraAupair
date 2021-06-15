@@ -1,0 +1,71 @@
+.Contacts {
+    position:relative;
+    height:50px;
+    list-style:none;
+    display: flex;
+    flex-flow: column;
+    width:100%;
+    background-color: #cc7c0394;
+}
+
+.Email {
+    margin: 10px 5px;
+    list-style:none;
+    flex-flow: row;
+    display: inline-block;
+    color: white;
+    flex-flow: column;
+    width:fit-content;
+}
+
+.Tel {
+    margin: 10px 10px;
+    margin-left: 4%;
+    list-style:none;
+    display: inline-block;
+    color: white;
+    flex-flow: column;
+    width:fit-content;
+    
+}
+.Register {
+    list-style:none;
+    flex-flow: row;
+    display: inline-block;
+    color: rgb(22, 17, 17);
+    flex-flow: column;
+    width:fit-content;
+}
+
+.Register1 {
+    list-style:none;
+    margin: 10px 5px;
+   
+    flex-flow: row;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    flex-flow: column;
+    width:fit-content;
+}
+.Login {
+    margin: 10px 5px;
+    border-right:2px solid rgb(247, 244, 244);
+    margin-left: 60%;
+    list-style:none;
+    flex-flow: row; 
+    display: inline-block;
+    color: white;
+    flex-flow: column;
+    width:50px;
+    height: fit-content;
+
+}
+@media (min-width:500px){
+     
+  .Contacts {
+        flex-flow: row;
+    }
+    
+
+
+}
