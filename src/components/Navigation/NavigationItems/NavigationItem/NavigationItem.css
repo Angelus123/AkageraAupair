@@ -1,7 +1,8 @@
 .NavigatiomItem {
     box-sizing: border-box;
     display: block;
-    color: black;
+    color: #ffffff;
+  
 }
 .NavigationItem a {
     text-decoration: none;
@@ -21,14 +22,15 @@
         align-items:center ;
     }
     .NavigationItem a {
-        color: rgba(0, 0, 0, 0.548);
+        margin-top: 10px;
+        color: white;
         width:110px;
         border-bottom:4px solid transparent;
     }
     .NavigationItem a:hover,
     .NavigationItem a:active,
     .NavigationItem a.active{
-        color:#af160b94;
-        text-decoration: none;
+        color:#fafafa;
+        text-decoration: rgb(255, 187, 1) underline;
     }
 }

@@ -4,7 +4,7 @@ import OurStory from '../../components/OurStory/OurStory';
 import OurUniqueness from '../../components/OurUniqueness/OurUniqueness'
 import WhyAkagera from '../../components/WhyAkagera/WhyAkagera';
 import Footer from '../../components/Footer/Footer'
-import Center from '../../components/AupairCenterAcademy/AupairCenterAcademy'
+import Aupair from '../../components/AupairHome/AupairHome'
 import OurTeam from "../../components/OurTeam/OurTeam";
 
 class Home extends Component{
@@ -13,7 +13,7 @@ class Home extends Component{
   
         return (   
         <Aux>
-            <Center />
+            <Aupair />
             <OurStory />
             <WhyAkagera />
             <OurUniqueness />

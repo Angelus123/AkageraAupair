@@ -24,12 +24,9 @@ class Layout extends Component{
         return (
             <Aux>
                  <div>
-          <Contacts />
+    
         </div>
-                <Toolbar 
-                    open={this.state.showSideDrawer} 
-                    toggle ={this.sideDrawerToggleHandler }
-                    /> 
+              
                 <SideDrawer 
                     open={this.state.showSideDrawer} 
                     closed ={this.sideDrawerClosedHandler }/>

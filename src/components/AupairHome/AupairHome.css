@@ -1,0 +1,105 @@
+.Aupair{
+    margin-top: -20px;
+    background-image: url('../../assets//AupairFotos/pexels-marcelo-dias-2449022.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Aupair-panel{
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 93.5vh;
+}
+
+.aupair-title{
+    width: 80%;
+    margin: 50px 5% 0 5%;
+    height: 250px;
+
+}
+.aupair-title h1{
+
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 100px;
+}
+.aupair-title h3{
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+.aupair-title div{
+    font-weight: 800;
+    width: fit-content;
+    background-color: rgb(255, 145, 1);  
+
+    font-size: 14px;
+    padding: 5px;
+}
+
+.aupair-title button{
+    background-color: rgb(255, 187, 1);  
+    color: black;
+}
+.container-other{
+    height: 130px;
+    width: 90%;
+    /* background-color: rgb(128, 0, 0); */
+    margin: 90px 5% 0 5%;
+}
+.item-aupair{
+    height: 110px;
+    width: 24%;
+    margin: 0 0.5%;
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+    padding-left: 15px;
+    margin:200px 0 0 20;
+    background-color: rgba(7, 4, 1, 0.603);
+
+
+}
+.item-aupair:hover{
+    background-color: rgb(0, 0, 0);
+    border:0 3px  rgb(255, 187, 1) solid;
+    cursor: pointer;
+}
+.item-aupair p{
+    line-height: normal;
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 0px 0;
+
+
+}
+.item-aupair-more p{
+    color:white;
+    font-size: 18px;
+    line-height: normal;
+    padding: 0px;
+
+}
+.more{
+    color: rgb(255, 136, 1);
+    line-height: normal;
+    font-size:16px;
+    text-decoration: rgb(255, 187, 1) underline;
+    
+
+}
+.more:hover{
+    background-color: rgb(0, 0, 0);
+}
+.register{
+    width:80%;
+    display:inline-block
+}
+.register1{
+    margin-right: 20px;
+    margin-top: 20px;
+    width:10%;
+    float: left;
+
+}
