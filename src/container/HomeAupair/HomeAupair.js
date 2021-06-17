@@ -14,11 +14,11 @@ class Home extends Component{
         return (   
         <Aux>
             <Aupair />
-            <OurStory />
+            {/* <OurStory />
             <WhyAkagera />
             <OurUniqueness />
             <OurTeam />
-            <Footer />
+            <Footer /> */}
             
         
          </Aux>
