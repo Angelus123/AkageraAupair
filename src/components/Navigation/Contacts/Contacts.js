@@ -4,12 +4,18 @@ import CallIcon from '@material-ui/icons/Call';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 const Contacts = () => (
     <div className='Contacts'>
-     
+
+<div className="Tel1">
+            <CallIcon style={{fontSize:'15px'}}/>
+        </div>
         <div className="Tel">
-            <CallIcon style={{fontSize:'15px'}}/>+250787259588
+           +250787259588
+        </div>
+        <div className="Email1">
+            <MailOutlineIcon style={{fontSize:'15px'}}/>
         </div>
         <div className="Email">
-            <MailOutlineIcon style={{fontSize:'17px'}}/>info@akagerarhein.com
+            info@akagerarhein.com
         </div>
         <div className="Login">
            Login

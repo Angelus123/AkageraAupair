@@ -17,11 +17,13 @@ const sideDrawer = ( props ) => {
       <Backdrop show ={props.open} clicked= {props.closed} />  
             <div className = {attachedClasses.join(' ')}>
             <div style ={{marginLeft:'95%'}}onClick={props.closed}>X</div>
-                    <Logo height ="10%" />  
+                    <Logo height ="50px" />  
                     
                 <nav>
                     <NavigationItems />
                 </nav>
+                <div>Login</div>
+                <div>Register</div>
                
             </div>
         </Aux>

@@ -1,8 +1,14 @@
 import React, {Component}from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Aupair from './container/HomeAupair/HomeAupair'
+import './App.css'
+import Home from './container/HomeAupair/Home'
+import About from './container/AboutAupair/AboutCenter'
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
-import Layout from './hoc/Layout/Layout'
+import Services from './container/ServicesCenter/ServicesCenter'
+
+import Contact from './container/ContactAupair/ContactCenter'
+import Faq from './container/FaqAupair/FaqCenter'
+import GetInvolved from './container/GetAupair/GetCenter'
+
 
 class App extends Component {
    
@@ -11,13 +17,17 @@ class App extends Component {
         return(
         <div>
           <BrowserRouter>
-            <Layout>
+           
                 <Switch>
-                   
-                    <Route path="/aupair" exact component ={Aupair} />
-                    <Route path="/" exact component ={Aupair} />
+                    <Route path="/" exact component ={Home} />
+                    <Route path="/about" exact component ={About} />
+                    <Route path="/services" exact component ={Services} />
+                    <Route path="/contact" exact component ={Contact} />
+                    <Route path="/involved" exact component ={GetInvolved} />
+                    <Route path="/faq" exact component ={Faq} />  
+                 
                 </Switch>   
-            </Layout>
+           
           </BrowserRouter>
         </div>
      )

@@ -1,0 +1,70 @@
+
+.involved-akagera-item{
+  background-color: rgba(250, 250, 250, 0.473);
+    border: 1px rgba(4, 0, 255, 0.171) solid;
+    border-radius: 20px;
+    width:50%;
+    display: inline-block;text-align: justify;
+    text-decoration: none;
+    font-size: 16px;
+    margin:20PX;
+    font-weight: 400;
+    padding: 20px ;
+    height:auto
+  }
+  .involved-akagera-item p{
+    
+    color:rgba(7, 7, 7, 0.836);
+  }
+  .involved-akagera{
+    margin-top: 80px;
+    background-image: url('../../../assets/AupairFotos/pexels-andrea-piacquadio-4831655.jpg');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  
+  
+  .involved-akagera h1{
+    margin: 20px 40px;
+    color:rgba(7, 7, 7, 0.582);
+  }
+  .button-involved{
+    float: left;
+    width:100px;
+    margin-top:20px;
+    text-align: center;
+    font-size: 18px;
+    text-align: center;
+    color:white;
+    border: none;
+    cursor: pointer;
+    border-radius: 200px;
+    background-color:rgba(6, 101, 179, 0.993);
+  }
+  .button-involved:hover{
+    background-color:rgba(6, 153, 179, 0.993);
+  }
+  .image-involved{
+    margin:10px;
+    width:50%;
+    height:200px;
+    border-radius: 10%;
+  }
+  .title-involved{
+    width: fit-content;
+    color: rgb(19, 57, 78);
+    font-weight: 800;
+    height:30px;
+   
+  }
+  .image-involved-holder{
+    display: inline-flex;
+    text-align: justify;
+  }

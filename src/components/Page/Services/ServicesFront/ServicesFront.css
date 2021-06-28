@@ -1,0 +1,26 @@
+.services-front {
+    background: url(https://cdn.pixabay.com/photo/2015/03/26/10/07/restaurant-690975_960_720.jpg) no-repeat 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.services-with{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.services-with h1{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.services-with p{
+    text-align: center;
+    color: white;
+
+
+}
+
+

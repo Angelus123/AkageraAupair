@@ -1,71 +1,122 @@
 .Contacts {
     position:relative;
-    height:50px;
-    list-style:none;
     display: flex;
-    flex-flow: column;
+    height:5m starty0px;
+    list-style:none;
     width:100%;
-    background-color: #531b69;
+    background-color: rgb(73, 29, 122);
 }
 
 .Email {
-    margin: 10px 5px;
+    margin: 10px 0px;
     list-style:none;
-    flex-flow: row;
-    display: inline-block;
     color: white;
-    flex-flow: column;
-    width:fit-content;
+    width:200px;
+}
+.Email1 {
+    margin: 10px 0px;
+    list-style:none;
+ 
+    color: white;
+ 
 }
 
 .Tel {
-    margin: 10px 10px;
-    margin-left: 3%;
-    list-style:none;
-    display: inline-block;
+    margin: 10px 10px 10px 0px;
+  
     color: white;
-    flex-flow: column;
-    width:fit-content;
+
+    
+}
+.Tel1 {
+    margin: 10px 0px;
+    margin-left: 20px;
+    color: white;
+    margin-left: 20px;
+
     
 }
 .Register {
     list-style:none;
-    flex-flow: row;
-    display: inline-block;
+
     color: rgb(22, 17, 17);
-    flex-flow: column;
     width:fit-content;
 }
 
 .Register1 {
     list-style:none;
     margin: 10px 5px;
-   
-    flex-flow: row;
-    display: inline-block;
     color: rgb(255, 255, 255);
-    flex-flow: column;
     width:fit-content;
 }
 .Login {
     margin: 10px 5px;
     border-right:2px solid rgb(247, 244, 244);
-    margin-left: 60%;
+    margin-left: 55%;
     list-style:none;
-    flex-flow: row; 
-    display: inline-block;
     color: white;
-    flex-flow: column;
     width:50px;
     height: fit-content;
 
 }
-@media (min-width:500px){
-     
-  .Contacts {
-        flex-flow: row;
-    }
-    
 
+@media(max-width:1000px){.Contacts {
+    position:relative;
+    display: flex;
+    height:50px;
+    list-style:none;
+    width:100%;
+    background-color: #af160b94;
+}
+
+.Email {
+    margin: 10px 0px;
+    list-style:none;
+    color: white;
+    width:200px;
+}
+.Email1 {
+    margin: 10px 0px;
+    list-style:none;
+    color: white;
+ 
+}
+
+.Tel {
+    margin: 10px 10px 10px 0px;
+    color: white;
+    
+}
+.Tel1 {
+    margin: 10px 0px;
+    margin-left: 20px;
+    color: white;
+    margin-left: 20px;
+
+    
+}
+.Register {
+    list-style:none;
+
+    color: rgb(22, 17, 17);
+    width:fit-content;
+}
+
+.Register1 {
+    list-style:none;
+    margin: 10px 5px;
+    color: rgb(255, 255, 255);
+    width:fit-content;
+}
+.Login {
+    margin: 10px 5px;
+    border-right:2px solid rgb(247, 244, 244);
+    margin-left: 40%;
+    list-style:none;
+    color: white;
+    width:50px;
+    height: fit-content;
+
+}
 
 }

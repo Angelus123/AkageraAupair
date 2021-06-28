@@ -1,9 +1,9 @@
 .Aupair{
-    margin-top: -20px;
+  
     background-image: url('../../assets/AupairFotos/pexels-alexandr-podvalny-3036405.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
 }
 
 .Aupair-panel{
@@ -44,11 +44,11 @@
 .container-other{
     height: 130px;
     width: 90%;
-    /* background-color: rgb(128, 0, 0); */
+  
     margin: 90px 5% 0 5%;
 }
 .item-aupair{
-    height: 110px;
+    height: 80px;
     width: 24%;
     margin: 0 0.5%;
     display: inline-block;

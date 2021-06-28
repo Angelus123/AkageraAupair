@@ -1,4 +1,4 @@
-import react ,{ Component} from 'react'
+import React ,{ Component} from 'react'
 import './AupairHome.css'
 import Contacts from '../Navigation/Contacts/Contacts'
 import ToolBar from '../Navigation/Toolbar/Toolbar'
