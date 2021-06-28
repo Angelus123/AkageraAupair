@@ -23,19 +23,9 @@ const navigationItems = () => (
 
           </div>
         </div> </NavigationItem>
+  
 
-        <NavigationItem link ="/services" exact> <div className="dropdown">
-          <span className="language">Families  <ArrowDropDownIcon /></span>
-          <div className="dropdown-content">
-            <p> Education Abroad  <ArrowRightIcon/></p>
-            <p >Career  Abroad <ArrowRightIcon/> </p>
-            <p>Special Services  <ArrowRightIcon/> </p>
-            <p>Abroad 
-              Interpreter & Translation Services  <ArrowRightIcon/> </p>
-            <p>Migration Advisory & Consultancy  <ArrowRightIcon/> </p>
-
-          </div>
-        </div> </NavigationItem>
+        
   
 
     <NavigationItem link ="/about" > <div className="dropdown">
@@ -49,6 +39,37 @@ const navigationItems = () => (
             <p>Terms of use </p>
           </div>
         </div> </NavigationItem>
+    <NavigationItem link ="/contact">
+    
+    <div className="dropdown">
+          
+          <span className="language">Families <ArrowDropDownIcon /></span>
+          <div className="dropdown-content">
+            <p> Education Abroad  </p>
+            <p >Career  Abroad </p>
+            <p>Special Services  </p>
+            <p>Abroad 
+              Interpreter & Translation Services  </p>
+            <p>Migration Advisory & Consultancy   </p>
+
+          </div>
+        </div>
+    </NavigationItem>
+    <NavigationItem link ="/contact">
+    <div className="dropdown">  
+          <span className="language">Candidate <ArrowDropDownIcon /></span>
+          <div className="dropdown-content">
+            <p> Education Abroad  </p>
+            <p >Career  Abroad </p>
+            <p>Special Services  </p>
+            <p>Abroad 
+              Interpreter & Translation Services  </p>
+            <p>Migration Advisory & Consultancy   </p>
+
+          </div>
+        </div>
+    </NavigationItem>
+    <NavigationItem link ="/services" exact> Services </NavigationItem>
     <NavigationItem link ="/contact">Contact</NavigationItem>
     <NavigationItem link ="/involved">Involved</NavigationItem>
     <NavigationItem link ="/faq">FAQ</NavigationItem>

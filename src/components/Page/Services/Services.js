@@ -9,15 +9,14 @@ const OurServices = () => {
                 </div>
            {/* --------------------Education    */}
             <div className="up">
-              Apprenticeship Abroad
+            YOU CAN REGISTER FOR FREE 
             </div>
             <p className="education-item-title">Education Abroad</p>
             <p>An apprenticeship is a system for training a new generation 
-                of practitioners</p>
+                </p>
            
            
-            <div className="bottom"> Get Service
-                </div>
+           
          </div>
 
          <div className="education-item">
@@ -32,8 +31,7 @@ const OurServices = () => {
             <p>Find the best language program to become fluent in no time.</p>
            
            
-            <div className="bottom"> Get Service
-                </div>
+            
          </div>
 
 
@@ -47,8 +45,7 @@ const OurServices = () => {
             <p className="education-item-title">Education Abroad</p>
             <p>
             Training is teaching, or developing in oneself or others </p>
-            <div className="bottom"> Get Service
-                </div>
+            
          </div>
 
          <div className="education-item">
@@ -62,10 +59,6 @@ const OurServices = () => {
             <p className="education-item-title">Education Abroad</p>
             <p>An apprenticeship is a system for training a new generation 
                 of practitioners</p>
-           
-           
-            <div className="bottom"> Get Service
-                </div>
          </div>
 
 
@@ -84,9 +77,6 @@ const OurServices = () => {
             <p>An apprenticeship is a system for training a new generation 
                 of practitioners</p>
            
-           
-            <div className="bottom"> Get Service
-                </div>
          </div>
 
          <div className="education-item">
@@ -99,10 +89,7 @@ const OurServices = () => {
             <p className="education-item-title">Career Abroad</p>
             <p>An apprenticeship is a system for training a new generation 
                 of practitioners</p>
-           
-           
-            <div className="bottom"> Get Service
-                </div>
+
          </div>
 
          <div className="education-item">
@@ -116,9 +103,7 @@ const OurServices = () => {
             <p>An apprenticeship is a system for training a new generation 
                 of practitioners</p>
            
-           
-            <div className="bottom"> Get Service
-                </div>
+
          </div>
 
          <div className="education-item">
@@ -132,9 +117,7 @@ const OurServices = () => {
             <p>An apprenticeship is a system for training a new generation 
                 of practitioners</p>
            
-           
-            <div className="bottom"> Get Service
-                </div>
+
          </div>
 {/* ----------------------special----------------------- */}
          <div className="education-item">
@@ -148,9 +131,7 @@ const OurServices = () => {
             <p>An apprenticeship is a system for training a new generation 
                 of practitioners</p>
            
-           
-            <div className="bottom"> Get Service
-                </div>
+
          </div>
 
          <div className="education-item">
@@ -164,9 +145,7 @@ const OurServices = () => {
             <p>An apprenticeship is a system for training a new generation 
                 of practitioners</p>
            
-           
-            <div className="bottom"> Get Service
-                </div>
+
          </div>
 
          <div className="education-item">
@@ -181,8 +160,7 @@ const OurServices = () => {
                 of practitioners</p>
            
            
-            <div className="bottom"> Get Service
-                </div>
+
          </div>
 
 
@@ -197,9 +175,7 @@ const OurServices = () => {
             <p>An apprenticeship is a system for training a new generation 
                 of practitioners</p>
            
-           
-            <div className="bottom"> Get Service
-                </div>
+
          </div>
 
          

@@ -3,11 +3,11 @@ import './ServicesFront.css'
 const Front = () => (
     <div className='services-front'>
     <div className='services-with'>
-    <h1>FAMILIES</h1>
+    <h1>Services</h1>
         <p>Home <span class="material-icons">
                     arrow_forward_ios
                 </span>
-                 Families </p>
+                 Services</p>
     </div>
         
     </div>

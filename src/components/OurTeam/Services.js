@@ -28,7 +28,7 @@ const OurServices = () => {
         </div>
    {/* --------------------Education    */}
     <div className="up-benefit">
-     <h1>Family connection</h1> 
+     <h1>Family connection   </h1> 
 
       <p>Family connection, which includes, for example, meals together, family outings, etc. </p>
     </div>
@@ -41,7 +41,7 @@ const OurServices = () => {
         </div>
    {/* --------------------Education    */}
     <div className="up-benefit">
-     <h1>Language course</h1> 
+     <h1>Attend Language</h1> 
 
       <p>Possibility to attend a language course 
         Gaining new friendship 
