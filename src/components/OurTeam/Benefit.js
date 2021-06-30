@@ -39,7 +39,7 @@ const OurServices = () => {
 <div className="benefit-item">
    <div className="benefit-item-image">
         </div>
-   {/* --------------------benefit    */}
+ 
     <div className="up-benefit">
      <h1>Attend Language</h1> 
 
@@ -52,7 +52,7 @@ const OurServices = () => {
 
 </div>
 
-  {/* --------------------Career    */}
+
 
 <div className="our-services">
 
@@ -63,7 +63,7 @@ const OurServices = () => {
   
 
  <div className="benefit-item">
-   <div className="benefit-item-image--3">
+   <div className="benefit-item2-image">
         </div>
      
     <div className="up">
@@ -85,7 +85,7 @@ const OurServices = () => {
          {/* --------------------Career    */}
 
  <div className="benefit-item">
-   <div className="benefit-item-image--3">
+ <div className="benefit-item2-image">
         </div>
      
     <div className="up">
@@ -105,7 +105,7 @@ const OurServices = () => {
          {/* --------------------Career    */}
 
  <div className="benefit-item">
-   <div className="benefit-item-image--3">
+ <div className="benefit-item2-image">
         </div>
      
     <div className="up">

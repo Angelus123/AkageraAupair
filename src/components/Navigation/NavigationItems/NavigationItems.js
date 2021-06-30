@@ -2,7 +2,6 @@ import React from 'react'
 import './NavigationItems.css'
 import NavigationItem from './NavigationItem/NavigationItem'
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 const navigationItems = () => (
 <ul className='NavigationItems'>
     <NavigationItem link ="/" exact> <div className="dropdown">
