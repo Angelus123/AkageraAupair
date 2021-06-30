@@ -1,0 +1,137 @@
+
+.our-services{
+ 
+  margin: 100px;
+}
+
+.host-item-banel{
+  width: 80%;
+  margin: 10px;
+  height: auto;
+  display: inline-block;
+  border: 2px rgba(81, 81, 83, 0.13) solid;
+  border-radius: 6px;
+}
+.host-item{
+  width: 30%;
+  margin: 10px;
+  height: 500px;
+  border: 2px rgba(81, 81, 83, 0.13) solid;
+  border-radius: 6px;
+}
+.host-item-panel{
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 50px;
+}
+
+.host-item-image{
+  background-image: url('https://cdn.pixabay.com/photo/2021/02/18/12/03/people-6027028_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.education-item{
+  width: 45%;
+  margin: 10px;
+  height: 500px;
+  display: inline-block;
+  border: 2px rgba(81, 81, 83, 0.13) solid;
+  border-radius: 6px;
+}
+
+
+
+.education-item-banel-title{
+  border-radius: 8px;
+  font-weight: 200;
+  font-size: 23px;
+  padding: 3px 15px;
+  margin-left:40px;
+  color: rgb(12, 8, 250);
+  width: fit-content;
+  background-color: rgba(91, 166, 228, 0.212);
+}
+
+.education-item p{
+  margin: 10px;
+
+}
+
+.education-item-image{
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/15/09/08/looking-for-a-job-1257233_960_720.jpg');
+  background-size: cover;
+  border-radius: 6px 0 0;
+  width: 100%;
+  height: 300px;
+
+}
+
+.up-host-care{
+ 
+  width: 80%;
+  line-height: 2;
+  height:200px;
+  padding: 10px;
+  color: rgb(4, 28, 110);
+  border-radius: 4px;
+  margin:-25px auto 20px auto;
+  box-shadow:  0px 30px 10px rgba(63, 63, 63, 0.123);
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+.up-host{
+ 
+  width: 80%;
+  height:auto;
+  padding: 10px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.781);
+  font-weight: 500;
+  border-radius: 4px;
+  margin:-25px auto 20px auto;
+  box-shadow:  0px 30px 10px rgba(63, 63, 63, 0.123);
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+
+.up{
+ 
+  width: fit-content;
+  padding: 10px;
+  color: red;
+  border-radius: 10px;
+  margin:-25px auto 20px auto;
+  box-shadow:  0px 30px 10px rgba(63, 63, 63, 0.123);
+  background-color: rgb(255, 255, 255);
+}
+.host-item-title{
+  border-radius: 8px;
+  font-weight: 200;
+  font-size: 12px;
+  padding: 3px 15px;
+  margin-left:40px;
+  color: rgb(12, 8, 250);
+  width: fit-content;
+  background-color: rgba(91, 166, 228, 0.212);
+}
+
+
+.bottom{
+  width: 100%;
+  background-color: rgba(32, 32, 248, 0.747);
+  margin-top:25px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  height: 50px;
+  padding-top:10px;
+  border-radius: 0  0 6px 6px;
+
+}
+.bottom:hover{
+  transition:ease-in;
+}

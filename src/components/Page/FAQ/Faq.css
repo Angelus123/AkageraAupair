@@ -70,9 +70,10 @@
   }
   
   .faq-akagera-more{
-    width: fit-content;
-    padding: 10px 50px;
+    width: 130px;
+    margin:10px ;
+    padding: 5px 20px;
     color: white;
-    background-color: rgb(89, 89, 255);
+    background-color: rgba(43, 74, 253, 0.835);
     border-radius: 200px;
   }

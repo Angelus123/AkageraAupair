@@ -3,7 +3,7 @@ import './App.css'
 import Home from './container/HomeAupair/Home'
 import About from './container/AboutAupair/AboutCenter'
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
-import Services from './container/ServicesCenter/ServicesCenter'
+import Host from './container/HostAupair/HostAupair'
 
 import Contact from './container/ContactAupair/ContactCenter'
 import Faq from './container/FaqAupair/FaqCenter'
@@ -21,7 +21,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/" exact component ={Home} />
                     <Route path="/about" exact component ={About} />
-                    <Route path="/services" exact component ={Services} />
+                    <Route path="/families" exact component ={Host} />
                     <Route path="/contact" exact component ={Contact} />
                     <Route path="/involved" exact component ={GetInvolved} />
                     <Route path="/faq" exact component ={Faq} />  

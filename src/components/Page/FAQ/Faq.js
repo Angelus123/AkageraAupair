@@ -5,29 +5,45 @@ const faqAkagera = () => {
     return (
         <div className="faq-akagera">
             <div className="faq-akagera-panel">
+            <div className="faq-akagera-panel-level-title">
+                <h1>General asked Questions</h1>
+            </div>
                 <div className="faq-akagera-item">
-                    <h1> Does Akagera & Rhein® Language Academy issue a participation certificate?  </h1>
-                    <p> Yes. At the end of each level of course, a certificate of participation in the course is issued to you. This highlights your final grade as well as your degree of involvement in the course syllabus of the European standard for referencing foreign languages. </p>
+                    <h1> Who do I contact if I have problems with the Host Family?  </h1>
+                    <p> Akagera & Rhein® Aupair Service works with selected and trustworthy partner agencies in every host country. The partner agencies are the interface between the Aupairs and the Host Families. You get the contact details of our partner and a contact person after the matching succeed. If you have any problems with the Host Family, or another problem you can contact this contact person at any time. Akagera & Rhein® Aupair Service will also stay in contact with you after you leave the country. </p>
                 </div>
 
                 <div  className="faq-akagera-item">
-                        <h1>Does Akagera & Rhein® Language Academy prepare for the language certification exams? 
-                                Like A1, A2, B1, B2 for example? </h1>
-                        <p>Akagera & Rhein® Language Academy will organise Language examination in accordance with European standard for referencing foreign languages. The examination is to be booked separately. </p>
+                        <h1>When should I apply? </h1>
+                        <p>Ideally, your application should be received thought this online platform by activating your profile 3 to 4 months before the desired departure. During the whole year.  </p>
                 </div>
 
                 <div  className="faq-akagera-item">
-                        <h1>Can I pass exam at Akagera & Rhein Language Academy while studied at other Language school?  </h1>
-                        <p>Yes. However, you muss participate in Examination preparation courses and show a lower certificate succussed level certificate.  i.e: If you wish to pass B1 Examination you must have passed the A2, show the certificate of participation in the B1 courses and actively participate in the intensive preparatory courses for the B1 examination. </p>
+                        <h1> How long should an au pair stay last? </h1>
+                        <p>The minimum stay in all host countries is 6 months. Unfortunately, we cannot arrange stays of less than 6 months. You have the best placement chances if you can stay in your Host Family for a whole year.</p>
                 </div>
 
                 <div  className="faq-akagera-item">
-                        <h1>How long does the complete language course last? </h1>
-                        <p>Ver hard to say, as it will depend on the cognitive ability of the learner and the program chosen. It is possible to take a standard or intensive course to accelerate your certification. However, an average of 8 to 12 weeks should be calculated for each language level. </p>
+                        <h1> How expensive is a language course? </h1>
+                        <p>Unfortunately, we cannot answer that across the board. The cost of the language course depends on many factors, for example the host country, the type of language school you have, the type and level of your course, the duration of the language course and the number of hours you want.</p>
                 </div>
+
+                <div  className="faq-akagera-item">
+                        <h1>   Do you also accept male applicants? </h1>
+                        <p>Of cause! Placement as an Aupair is generally possible for boys and girls. However, the placement of male applicants is more difficult, as most families want a female Aupair for their children. If you would like to apply as a male applicant, we look forward to receiving your application and will try to find you successfully. However, we cannot promise a placement and ask you to submit your application to us well in advance of your desired departure so that we have enough time to search. </p>
+                </div>
+                <div  className="faq-akagera-item">
+                        <h1>    Do I have to be a non-smoker?  </h1>
+                        <p>No. However, very many families do not accept a smoking Aupair. As a smoker, you will in most cases at least have to undertake to never smoke in the presence of the children. We strongly recommend that you quit smoking before your stay. </p>
+                </div>
+
+
+               
+
+              
 
                 <div  className="faq-akagera-more">
-                    More
+                    Read more
                 </div>
             </div>
            
@@ -35,11 +51,17 @@ const faqAkagera = () => {
             <div className="faq-akagera-panel-level">
 
                 <div className="faq-akagera-panel-level-title">
-                    <h1>I require a level of Language A1, A2, B1, B2, C1 or C2 ?  What does that mean?</h1>
-                    <p>GER (European standard) identifies different grids of language levels and skills. </p>
+                <h1 style={{color:'red'}}>Aupar Asked Questions</h1>
+                    {/* <p>GER (European standard) identifies different grids of language levels and skills. </p> */}
                 </div>
 
-                <div className="faq-panel-level">  
+                <div className="faq-akagera-panel-level-title">
+                    <h1 style={{color:'red'}}>Host Family Asked Questions</h1>
+                    {/* <p>GER (European standard) identifies different grids of language levels and skills. </p> */}
+                </div>
+
+
+                {/* <div className="faq-panel-level">  
                     <div className="faq-akagera-item-level">
                         <h1>A1 - BEGINNER </h1>
                         <p> Can understand and use common, everyday expressions, as well as very simple statements aimed at meeting concrete needs. Can introduce himself or others, can ask a person question about himself ... Can communicate in a simple way if the interlocutor speaks slowly and clearly and is cooperative. </p>
@@ -103,7 +125,7 @@ const faqAkagera = () => {
                 <div  className="faq-akagera-more">
                     More
                 </div>
-               
+                */}
             </div>
         </div> 
     )
