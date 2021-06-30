@@ -1,32 +1,31 @@
 .Aupair{
   
-    background-image: url('../../assets/AupairFotos/pexels-alexandr-podvalny-3036405.jpg');
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/08/05/08/adult-1807500_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 110vh;
 }
 
 .Aupair-panel{
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.342);
     height: 93.5vh;
+   
 }
 
-.aupair-title{
-    width: 80%;
-    margin: 50px 5% 0 5%;
-    height: 250px;
 
-}
 .aupair-title h1{
 
     color: rgb(255, 255, 255);
     font-weight: 800;
-    font-size: 100px;
+    font-size: 72px;
+}
+.aupair-title {
+    margin: 60px 80px;
 }
 .aupair-title h3{
     font-weight: 800;
     color: rgb(255, 255, 255);
-    font-size: 36px;
+    font-size: 28px;
 }
 .aupair-title div{
     font-weight: 800;

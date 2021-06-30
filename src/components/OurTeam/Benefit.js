@@ -1,5 +1,5 @@
 import React from 'react'
-import './Services.css'
+import './Benefit.css'
 const OurServices = () => {
     return (
         <React.Fragment>
@@ -10,7 +10,7 @@ const OurServices = () => {
 <div className="benefit-item">
    <div className="benefit-item-image">
         </div>
-   {/* --------------------Education    */}
+   {/* --------------------benefit    */}
     <div className="up-benefit">
      <h1>Food and accomodation</h1> 
 
@@ -26,7 +26,7 @@ const OurServices = () => {
 <div className="benefit-item">
    <div className="benefit-item-image">
         </div>
-   {/* --------------------Education    */}
+   {/* --------------------benefit    */}
     <div className="up-benefit">
      <h1>Family connection   </h1> 
 
@@ -39,7 +39,7 @@ const OurServices = () => {
 <div className="benefit-item">
    <div className="benefit-item-image">
         </div>
-   {/* --------------------Education    */}
+   {/* --------------------benefit    */}
     <div className="up-benefit">
      <h1>Attend Language</h1> 
 
@@ -62,15 +62,15 @@ const OurServices = () => {
 
   
 
- <div className="education-item">
-   <div className="education-item-image--3">
+ <div className="benefit-item">
+   <div className="benefit-item-image--3">
         </div>
      
     <div className="up">
     Get up with the kids 
        
     </div>
-    <p className="education-item-title">Get up</p>
+    <p className="benefit-item-title">Get up</p>
     <p>An apprenticeship is a system for training a new generation 
         of practitioners</p>
    
@@ -84,15 +84,15 @@ const OurServices = () => {
 
          {/* --------------------Career    */}
 
- <div className="education-item">
-   <div className="education-item-image--3">
+ <div className="benefit-item">
+   <div className="benefit-item-image--3">
         </div>
      
     <div className="up">
     Wash and dress children 
        
     </div>
-    <p className="education-item-title">Wash and dress</p>
+    <p className="benefit-item-title">Wash and dress</p>
     <p>An apprenticeship is a system for training a new generation 
         of practitioners</p>
    
@@ -104,15 +104,15 @@ const OurServices = () => {
 
          {/* --------------------Career    */}
 
- <div className="education-item">
-   <div className="education-item-image--3">
+ <div className="benefit-item">
+   <div className="benefit-item-image--3">
         </div>
      
     <div className="up">
     Make breakfast for the kids 
        
     </div>
-    <p className="education-item-title">breakfast</p>
+    <p className="benefit-item-title">breakfast</p>
     <p>An apprenticeship is a system for training a new generation 
         of practitioners</p>
    
