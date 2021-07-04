@@ -1,19 +1,22 @@
 .OurStory{
-    text-align: center;
-    width: 80%;
-    box-shadow: 10px 10px 10px 10px rgb(236, 235, 235) ;
 
+    width: 75%;
+    margin:60px auto 30px;
+    text-align: center;
 }
 .OurStory p{
-    padding: 10px 100px ;
+    padding: 0px 100px ;
     text-align: left;
-    color:rgba(7, 7, 7, 0.849);
     font-size: 18px;
     font-weight: 400;
 }
 .OurStory h1{
     color:rgba(7, 7, 7, 0.411);
-    margin-top: 10px;
-    text-align: center;
+  
+  
    
+}
+.material-icons.quote{
+    font-size: 28px;
+    color: blueviolet;
 }

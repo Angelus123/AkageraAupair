@@ -1,0 +1,55 @@
+.duties{
+    width: 90%;
+    height: 60vh;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 100px;
+}
+.duties-container{
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    height: 60vh;
+ 
+
+}
+.duties-item--1{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/24/19/49/people-3104635_960_720.jpg);
+    background-size: cover;
+    width:50%;
+    margin:1 auto;
+    height:300px;   
+    margin: 20px;
+    margin-right: -60px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.294);
+}
+.duties-item--1-panel{
+    width: 100%;
+    height:300px;  
+    padding:50px;
+    background-image: linear-gradient(0deg, #000 0%, transparent 100%);
+    /* background-color: rgba(7, 3, 1, 0.685); */
+
+}
+.duties-item--1-panel p{
+    margin-top: 130px;
+    color: white;
+    font-size: 18px;
+}
+
+.duties-item--2{
+    margin: 10px auto;
+    width: 50%;
+    height:300px;
+    padding:40px;
+    margin: 20px;
+    margin-top: 60px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.294);
+    margin-left: 0px;
+    background-color: rgba(223, 225, 235, 0.383);
+}
+
+.duties-item--2 b{
+    color:rgb(112, 2, 238);
+    font-weight: 900;
+}

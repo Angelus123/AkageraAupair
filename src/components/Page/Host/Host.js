@@ -6,16 +6,23 @@ const OurHost = () => {
           <div className="host-item-banel">
 
             <div className="up-host">
-              <h1 className="education-item-banel-title">What is a Host Family </h1>
+              <h1>What is a Host Family </h1>
               <p>
+              <span class="material-icons quote">
+                    format_quote
+                </span>
 
               A Host Family is a family willing to host an Aupair under the host country’s official program. As Host Family you must meet certain requirements in order to join the program. For instance, you must have a child under 18 years old, the ability to host an Aupair in your home and respect the Host Family responsibilities during the program. 
               You, as  a Host Family offers an Aupair the pocket money, free board and lodging in their own home for the duration of their stay. 
               In return, the Aupair girl/boy helps the Host Family with childcare and light household chores. Both the Aupair and the Host Family benefit from an Aupair progam. 
-              The Aupair program is the right choice if you want to learn about the way of life of other nations and get the support in child care and household management.  According to the program requirements, the Aupair will have to learn or improve his/her knowledge of the host country’s language. To make it possible, the Host Family needs to speak this language at home.  In addition to this, you will need to find an Aupair of a different nationality than your own to respect the cultural exchange aspect. </p> 
+              The Aupair program is the right choice if you want to learn about the way of life of other nations and get the support in child care and household management.  According to the program requirements, the Aupair will have to learn or improve his/her knowledge of the host country’s language. To make it possible, the Host Family needs to speak this language at home.  In addition to this, you will need to find an Aupair of a different nationality than your own to respect the cultural exchange aspect.
+              <span class="material-icons quote">
+                    format_quote
+                </span>
+               </p> 
             </div>  
           </div>
-          <div>
+          {/* <div>
           <h1>
 The most important task of an Aupair us taking care of the children. Depending on the age of the children, the childcare responsibilities may include, among other:</h1>
        
@@ -75,13 +82,13 @@ The most important task of an Aupair us taking care of the children. Depending o
           </div>
 
          </div>
-         </div> 
+         </div>  */}
 
 
        
 
 
-          <div className="host-item-banel">
+          {/* <div className="host-item-banel">
                 <div className="up-host">
             <p className="host-item-title">The offer of Host Family</p>
             <p> 
@@ -115,7 +122,7 @@ The most important task of an Aupair us taking care of the children. Depending o
 
                 Tasks that are expected from the Aupair are discussed before the placement, but flexibility, helpfulness, and willingness to compromise are expected from the Aupair and the Host Family. </p>
             </div>
-         </div>
+         </div> */}
 
         
 
