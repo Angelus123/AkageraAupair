@@ -7,7 +7,7 @@ const OurServices = () => {
             <div className="benefit-item-image">
             </div>
             {/* --------------------Education    */}
-            <div className="up-benefit">
+            {/* <div className="up-benefit"> */}
               <p className="education-item-title">Education Abroad</p>
               <p>What is a Host Family 
 
@@ -15,7 +15,7 @@ A Host Family is a family willing to host an Aupair under the host country’s o
 You, as  a Host Family offers an Aupair the pocket money, free board and lodging in their own home for the duration of their stay. 
 In return, the Aupair girl/boy helps the Host Family with childcare and light household chores. Both the Aupair and the Host Family benefit from an Aupair progam. 
 The Aupair program is the right choice if you want to learn about the way of life of other nations and get the support in child care and household management.  According to the program requirements, the Aupair will have to learn or improve his/her knowledge of the host country’s language. To make it possible, the Host Family needs to speak this language at home.  In addition to this, you will need to find an Aupair of a different nationality than your own to respect the cultural exchange aspect. </p> 
-            </div>  
+            {/* </div>   */}
           </div>
 
         <div className="benefit-item">
