@@ -73,7 +73,7 @@ const navigationItems = () => (
           </div>
         </div>
     </NavigationItem>
-    <NavigationItem link ="/involved">Involved</NavigationItem>
+    {/* <NavigationItem link ="/involved">Involved</NavigationItem> */}
     <NavigationItem link ="/contact">Contact</NavigationItem>
     
   
